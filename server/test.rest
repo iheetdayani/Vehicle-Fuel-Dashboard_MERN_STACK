@@ -1,0 +1,21 @@
+POST http://localhost:5000/api/Vehicles HTTP/1.1
+content-type: application/json
+
+{
+  "vehicleName": "Tata Nexon",
+  "vehicleNumber": "GJ05JK5678",
+  "tripDate": "2026-11-09",
+  "startOdometer": 12000,
+  "endOdometer": 12480,
+  "fuelConsumed": 32,
+  "fuelPrice": 96,
+  "distance": 480,
+  "mileage": 15,
+  "fuelExpense": 3072,
+  "costPerKM": 6.4
+}
+
+###
+GET http://localhost:5000/api/Vehicles
+###
+GET http://localhost:5000/api/Vehicles/6af683162763c7e0dec01769
